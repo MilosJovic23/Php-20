@@ -11,7 +11,7 @@
 
         public function __construct() {
 
-            $this->konekcija = new mysqli("localhost", "root", "", "web_shop");
+            $this->konekcija = mysqli("localhost", "root", "", "web_shop");
 
         }
 
