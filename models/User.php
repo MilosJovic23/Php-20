@@ -15,8 +15,8 @@
         }
 
         public function save() {
-            $baza = mysqli_connect("localhost", "root", "", "web_shop");
 
+            $baza = mysqli_connect("localhost", "root", "", "web_shop");
             $email = mysqli_real_escape_string( $baza, $this->email );
             $sifra = mysqli_real_escape_string( $baza, $this->sifra );
 
